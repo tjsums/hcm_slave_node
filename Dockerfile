@@ -1,4 +1,4 @@
-FROM registry.cn-beijing.aliyuncs.com/hcmcloud/hcm_slave_base:latest
+FROM registry-internal.cn-beijing.aliyuncs.com/hcmci/slave_base:latest
 
 RUN set -ex \
   && for key in \
